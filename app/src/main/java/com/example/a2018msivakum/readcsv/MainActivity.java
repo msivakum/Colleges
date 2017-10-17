@@ -21,7 +21,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener{
+public class MainActivity extends AppCompatActivity{
 
     private ArrayList<College> collegeList, updateList;
     private ArrayList<Integer> idList, inPriceList, outPriceList, totAdmitList, menAdmitList, womenAdmitList, enrollList, satMath25List, satRead25List, satWrit25List, satMath75List, satRead75List, satWrit75List,
@@ -111,7 +111,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             if(totAdmitList.get(k) < 20)
                 updateList.add(collegeList.get(k));
         }
-        Log.i("MainActivity", "something");
+
         Log.i("MainActivity", "Number of Colleges " + collegeList.size());
     }
 }

@@ -14,8 +14,6 @@ import java.util.List;
  * Created by 2018msivakum on 9/28/2017.
  */
 
-
-
 public class CollegeAdapter extends RecyclerView.Adapter<CollegeAdapter.ViewHolder> {
 
     private List<College> mColleges;
