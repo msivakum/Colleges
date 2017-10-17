@@ -111,7 +111,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             if(totAdmitList.get(k) < 20)
                 updateList.add(collegeList.get(k));
         }
-
+        Log.i("MainActivity", "something");
         Log.i("MainActivity", "Number of Colleges " + collegeList.size());
     }
 }
